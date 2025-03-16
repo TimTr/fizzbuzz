@@ -1,6 +1,6 @@
 # FizzBuzz
 
-This sample code shows various algorithms to solve FizzBuzz using Swift and C. Statement of the [FizzBuzz](https://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/) problem:
+This sample code shows various algorithms to solve [FizzBuzz](https://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/) using Swift and C.
 
 > Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number, and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
  
@@ -9,7 +9,7 @@ Type the following to build and run the Swift and C versions:
 swift run FizzBuzz-C
 swift run FizzBuzz-Swift
 ```
-or to build and work on the executable directly:
+or to build and then run the executable directly:
 ```
 swift build
 .build/debug/FizzBuzz-C
