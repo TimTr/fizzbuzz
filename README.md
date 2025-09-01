@@ -6,14 +6,14 @@ This sample code shows various algorithms to solve [FizzBuzz](https://imranontec
 
 Type the following to build and run the Swift and C versions:
 ```
-swift run FizzBuzz-C
-swift run FizzBuzz-Swift
+> swift run FizzBuzz-C
+> swift run FizzBuzz-Swift
 ```
 or to build and then run the executable directly:
 ```
-swift build
-.build/debug/FizzBuzz-C
-.build/debug/FizzBuzz-Swift
+> swift build
+> .build/debug/FizzBuzz-C
+> .build/debug/FizzBuzz-Swift
 ```
 
 You can double-click the `Package.swift` file to open in Xcode.
@@ -36,8 +36,8 @@ Also note that the strict interpretation of the instructions are to print the nu
 
 **For the C version**,  first build, and then run the output using:
 ```
-  clang fizzBuzz.c
-  ./a.out
+> clang fizzBuzz.c
+> ./a.out
 ```
 
 There are several version of the implementation in the code, so just change the `main` function in the C file, or change the top-level code in Swift, to call a different implementaiton function. The function names should be pretty easy to identify.
@@ -46,23 +46,6 @@ There are several version of the implementation in the code, so just change the 
 ## Xcode Project
 
 Note that only `main.swift` is made a member of the default Xcode target. Xcode won't try to build and run the C code, for example. The files are included just to make it easier to use Xcode as the code editor for any of the samples.
-
-
-## Ignore this section
-
-Just trying out other ways to show Markdown code syntax on GitHub:
-
-```swift
-// Standard Markdown. An array of 'Int' elements
-let oddNumbers = [1, 3, 5, 7, 9, 11, 13, 15]
-```
-
-You could do this, which looks so much better in source:
-
-``` Swift:
-// Prettier "official" Mardown. An array of 'Int' elements
-let oddNumbers = [1, 3, 5, 7, 9, 11, 13, 15]
-```
 
 
 ## Origins
