@@ -3,7 +3,7 @@
 This sample code shows various algorithms to solve [FizzBuzz](https://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/) using Swift and C.
 
 > Write a program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number, and for the multiples of five print “Buzz”. For numbers which are multiples of both three and five print “FizzBuzz”.
- 
+
 Type the following to build and run the Swift and C versions:
 ```
 swift run FizzBuzz-C
@@ -46,6 +46,23 @@ There are several version of the implementation in the code, so just change the 
 ## Xcode Project
 
 Note that only `main.swift` is made a member of the default Xcode target. Xcode won't try to build and run the C code, for example. The files are included just to make it easier to use Xcode as the code editor for any of the samples.
+
+
+## Ignore this section
+
+Just trying out other ways to show Markdown code syntax on GitHub:
+
+```swift
+// Standard Markdown. An array of 'Int' elements
+let oddNumbers = [1, 3, 5, 7, 9, 11, 13, 15]
+```
+
+You could do this, which looks so much better in source:
+
+``` Swift:
+// Prettier "official" Mardown. An array of 'Int' elements
+let oddNumbers = [1, 3, 5, 7, 9, 11, 13, 15]
+```
 
 
 ## Origins

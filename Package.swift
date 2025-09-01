@@ -6,15 +6,15 @@ import PackageDescription
 
 
 let package = Package(
-    name: "fizz-buzz",
+    name: "fizzbuzz",
     targets: [
         .executableTarget(
-            name: "FizzBuzz-Swift",
+            name: "fizzbuzz-swift",
             path: ".",
             exclude: ["FizzBuzz.c", "README.md"],
             sources: ["FizzBuzz.swift"]),
         .executableTarget(
-            name: "FizzBuzz-C",
+            name: "fizzbuzz-c",
             path: ".",
             sources: ["FizzBuzz.c"])
     ]
